@@ -53,5 +53,25 @@ footer {
     margin: auto;
 }
 
+.logoleft {
+    float: left;
+    padding-top: 30px;
+    padding-left: 15px;
+}
 
 
+nav a {
+    border: 2px inset #CCCCCC;
+    background-color: maroon;
+    line-height: 250%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    border: 2px outset #CCCCCC;
+
+}
