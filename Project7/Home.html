@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Rent a Pet - Home</title>
+<link rel="stylesheet" href="mystyles.css">
+<script type="text/javascript" src="myscript.js"></script>
+</head>
+
+<body onload="preloadImages()">
+<div id="container">
+	<header>
+		<div id="logo">
+			<a onMouseOver="document.logo.src=logo2.src;"
+			onMouseOut="document.logo.src=logo1.src;">
+
+			<img src="images/logo1.png" width="100" height="90" 
+			 style="border:none;" alt="company logo">
+
+			</a>
+		</div>
+    	<img class="banner" src="Images/banner.png" width="494" height="182" alt="banner image">
+		<nav>
+            <a href="Home.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Tributes.html">Tributes</a>
+            <a href="Survey.html">Survey</a>
+            <a href="Favorites.html">Favorites</a>
+        </nav>
+	</header>
+      <section>
+          <article>
+			  <h1>Welcome to Rent a Pet</h1>
+            <p>If you love to interact with pets like we do, you should enjoy looking around this site.  
+				Take a look at our Pet Profiles and take the opportunity to complete our survey.</p>
+            <h2>Featured Pets Gallery</h2>
+            <div id="thumbs">
+                <img src="Images/Thumbnails/image1sm.jpg" width="150" height="100" alt="Dog doing trick" onmouseover="swapImage(0);" >
+                <img src="Images/Thumbnails/image2sm.jpg" width="150" height="100" alt="Two dogs" onmouseover="swapImage(1);" >
+                <img src="Images/Thumbnails/image3sm.jpg" width="150" height="100" alt="Dog and two boys" onmouseover="swapImage(2);" >
+                <img src="Images/Thumbnails/image4sm.jpg" width="150" height="100" alt="Woman and dog" onmouseover="swapImage(3);" >
+            </div>
+            <div id="image">
+                <img id="theImage" src="Images/Fullsize/image1lg.jpg" alt="Dog performing a trick" >
+                <h3 id="bottomText">Dog performing a trick</h3>
+            </div>
+            <h2>Mini Tribute</h2>
+            <div class="tribute">
+                <img src="Images/RentAPetP3/RentAPet/Tributes/GermanShephard1.jpg" width="220" height="165" alt="German Shepherd tribute" class="thumbnailleft" >
+                <p>I'm a single college guy and live in an apartment with 3 other guys.  I always wanted to have a large breed of dog that would be a companion to take <br>
+                    running or play catch with in the park.  With the help of Rent A Pet, I found Kamaikaze, a German Shephard.  He loves to run in the summer and even <br>
+                    cross country ski in the winter. <a href="Tributes.html">more ;&gt;&gt;</a></p>
+            </div>
+		  </article>          
+      </section>
+	
+	<footer> <p><a href="mailto:10871978@uvu.edu">Email Us</a></p>
+        <p>This web site has been created solely for educational purposes.</p>
+	</footer>
+	
+</div>	
+	
+</body>
+</html>
