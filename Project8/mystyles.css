@@ -142,10 +142,12 @@ footer a:hover {
 p{
     line-height: 1.5;
 }
-print-button-container{
+.print-button-container{
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
-print-button{
+.print-button{
 	align-items: center;
 }
 table{
